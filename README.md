@@ -72,6 +72,7 @@ Terdapat dua class di dalam folder `payload`:
 
 **Response Berhasil**
 
+```bash
 {
 "success": true,
 "message": "Item berhasil ditemukan",
@@ -81,9 +82,11 @@ Terdapat dua class di dalam folder `payload`:
 "price": 5000
 }
 }
+```
 
 **Response Gagal**
 
+```bash
 {
 "success": false,
 "message": "Validasi gagal",
@@ -91,6 +94,7 @@ Terdapat dua class di dalam folder `payload`:
 "name": "Nama item tidak boleh kosong"
 }
 }
+```
 
 ## 👤 Author
 
